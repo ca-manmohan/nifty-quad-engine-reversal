@@ -1,0 +1,15 @@
+{
+  "id": "vmanmohan/heston-stress-persistence-limite-actor-critic",
+  "title": "heston-stress-persistence-limite-actor-critic",
+  "code_file": "quad_engine_limite_actor_critic.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "vmanmohan/nse-nifty-kronos-data"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}
