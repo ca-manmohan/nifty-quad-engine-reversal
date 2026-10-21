@@ -1,0 +1,5 @@
+id,name,formula_latex,critic_value,rank_ic,win_rate_pct,net_pnl,profit_factor,trades
+Omega_1_Linear_Vats,Linear Reversal Invariant (Yash Vats Baseline),\Omega_1 = -0.55 \tanh(z_{\text{open}}) - 0.45 \tanh(z_{\text{vwap}}) + 0.30 W \cdot \mathbb{I}_{v > 1.2},0.6308,0.0949,89.5,18450.0,7.82,19
+Omega_2_Dual_Phase_Actor,Actor Trace #1 Dual-Phase Microstructure Invariant,\Omega_2 = \tanh\left( -0.65 z_{\text{open}} \cdot \sqrt{v_{\text{climax}}} + 0.40 W \right) \cdot \sigma(\text{LSR}),0.6337,-0.055,89.5,18450.0,7.82,19
+Omega_3_Quad_Engine_Optimal,Quad-Engine Regularized Symbolic Master Invariant,"\Omega^* = -0.50 \text{sign}(z_{\text{open}}) \cdot \min(|z_{\text{open}}|, 1.0) \cdot \mathbb{I}_{v \ge 1.22} - 0.40 \tanh(z_{\text{vwap}}) + 0.35 W",0.6182,0.1451,100.0,23698.97,999.0,19
+Omega_4_Asymmetric_FII_Gate,Asymmetric FII-Weighted Liquidity Invariant,\Omega_4 = -\tanh(z_{\text{open}}) \cdot \mathbb{I}_{\text{LSR} \le 35\%} + \tanh(-z_{\text{vwap}}) \cdot \mathbb{I}_{\text{LSR} \ge 13\%},0.6275,0.0209,89.5,18450.0,7.82,19
